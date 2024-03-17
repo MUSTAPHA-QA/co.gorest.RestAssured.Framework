@@ -30,6 +30,6 @@ public class DeleteUserTest {
 		logger.info("Value of x-content-type-options Header: {}", response.getHeader("x-content-type-options"));
 		Assert.assertEquals(response.getHeader("x-content-type-options"), "nosniff", "Unexpected x-content-type-options header value");
 		
-		logger.info("------------------------Finished update user test------------------------");
+		logger.info("------------------------Finished delete user test------------------------");
 	}
 }
